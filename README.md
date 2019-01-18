@@ -14,8 +14,12 @@ import { toIndianCurrency } from "indian-currency";
 ### Usage
 ```js
 let numericIndianCurrency = 1445;
-let stringCurrency = toIndianCurrency(numericIndianCurrency);
-console.log(stringCurrency);
+try {
+    let stringCurrency = toIndianCurrency(numericIndianCurrency);
+    console.log(stringCurrency);    
+} catch(e) {
+    console.error(e.message);
+}
 ```
 
 ### Output
