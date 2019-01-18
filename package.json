@@ -1,0 +1,23 @@
+{
+  "name": "indian-currency",
+  "version": "1.0.6",
+  "description": "Convert number to Indian currency",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aamersohel/indian-currency-js.git"
+  },
+  "keywords": [
+    "indian",
+    "currency"
+  ],
+  "author": "Aamer Sohel <aamersohel7@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aamersohel/indian-currency-js/issues"
+  },
+  "homepage": "https://github.com/aamersohel/indian-currency-js#readme"
+}
