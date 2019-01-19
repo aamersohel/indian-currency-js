@@ -12,7 +12,7 @@ $ npm install --save num-to-text
 
 ### Import Statement
 ```js
-import { numToText } from 'num-to-text';
+import * as numToText from 'num-to-text';
 ```
 
 ### Usage

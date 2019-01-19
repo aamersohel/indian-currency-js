@@ -137,23 +137,21 @@ function toInternational(value) {
     return (value < 0)? "Minus " + getPositiveInternationalNumber(value * -1): getPositiveInternationalNumber(value);
 }
 
-
 /**
- * Converts any numeric Indian currency to string equivalent representation
- * @param value numeric Indian currency
+ * Converts any number to string equivalent representation
+ * @param value numeric value or number
+ * @param format is a numbering format. It can be 'int' (International) or 'in' (Indian).
  * @returns string equivalent currency
  */
-function numToText(value, textFormat = 'int') {
+exports = function (value, format = 'int') {
     if(value) {
         if(value === "") throw new Error("Invalid number");
         value = parseInt(value);
-        switch(textFormat) {
+        switch(format) {
             case 'int': return toInternational(value);
             case 'in': return toIndian(value);
-            default: throw new Error("Invalid text format");
+            default: throw new Error("Invalid format");
         }
     }
     throw new Error("Invalid number");
 }
-
-exports.numToText = numToText;
