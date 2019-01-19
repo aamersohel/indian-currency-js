@@ -143,7 +143,7 @@ function toInternational(value) {
  * @param format is a numbering format. It can be 'int' (International) or 'in' (Indian).
  * @returns string equivalent currency
  */
-exports = function (value, format = 'int') {
+module.exports = function(value, format = 'int') {
     if(value) {
         if(value === "") throw new Error("Invalid number");
         value = parseInt(value);
