@@ -1,10 +1,9 @@
 ### Description
-<p>Converts any number to string equivalent representation. It support International and Indian numbering system.</p>
-<p>**Note:** The Indian numbering system is used in the Indian subcontinent (Bangladesh, India, Nepal, Maldives, Pakistan and Sri Lanka) and in Burma.</p> 
+Converts any number to string equivalent representation. It support International and Indian numbering system. The Indian numbering system is used in the Indian subcontinent (Bangladesh, India, Nepal, Maldives, Pakistan and Sri Lanka) and in Burma. 
 
-#### Number Range
- * **International (default):** -999999999999999999999999999 to +999999999999999999999999999 
- * **Indian:** -9999999999999 to +9999999999999
+**Number Range**
+ * International (default): -999999999999999999999999999 to +999999999999999999999999999 
+ * Indian: -9999999999999 to +9999999999999
 
 ### Installation
 ```sh
