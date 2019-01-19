@@ -1,14 +1,14 @@
 ### Description
-Converts any numeric Indian currency to string equivalent representation. It support number range from -999999999 to 999999999.
+Converts any number to string equivalent representation. Currently it supports Indian format, number range from -999999999 to 999999999.
 
 ### Installation
 ```sh
-$ npm install --save indian-currency
+$ npm install --save num-to-text
 ```
 
 ### Import Statement
 ```js
-import { toIndianCurrency } from "indian-currency";
+import { toIndianCurrency } from "num-to-text";
 ```
 
 ### Usage
