@@ -1,23 +1,28 @@
 {
-  "name": "indian-currency",
-  "version": "1.0.6",
-  "description": "Convert number to Indian currency",
+  "name": "num-to-text",
+  "version": "1.0.0",
+  "description": "Convert number to text",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aamersohel/indian-currency-js.git"
+    "url": "git+https://github.com/aamersohel/number-to-text-js.git"
   },
   "keywords": [
-    "indian",
-    "currency"
+    "number",
+    "text",
+    "converter",
+    "rupees",
+    "dollar",
+    "format",
+    "number to text"
   ],
   "author": "Aamer Sohel <aamersohel7@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aamersohel/indian-currency-js/issues"
+    "url": "https://github.com/aamersohel/number-to-text-js/issues"
   },
-  "homepage": "https://github.com/aamersohel/indian-currency-js#readme"
+  "homepage": "https://github.com/aamersohel/number-to-text-js#readme"
 }
